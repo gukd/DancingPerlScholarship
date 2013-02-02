@@ -1,4 +1,4 @@
 use strict;
 use warnings;
 
-print "Hello biAtch"
+print "Kosta sais 'Hello good Sir'.";
