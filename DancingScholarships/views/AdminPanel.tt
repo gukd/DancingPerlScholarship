@@ -1,0 +1,21 @@
+﻿<div id="login">  
+        <div id="header">
+          <h1><center>Административен Панел </center></h1>
+        </div>
+        <form name="query" action="<% request.uri_for("/AdminPanel") %>" method="post">
+        <center>
+        <table border="0">
+         <tr> 
+            <td ><right>Автоматично класиране: &emsp;&emsp;</right></td><td><left><input type="radio" name="queryType" value="calculate"></left></td>
+		 </tr>
+		 <tr> 
+            <td ><right>Извеждане на базата: &emsp;&emsp;</right></td><td><left><input type="radio" name="queryType" value="showBase"></left></td>
+		 </tr>
+		 <tr> 
+            <td ><right>Първи 5: &emsp;&emsp;</right></td><td><left><input type="radio" name="queryType" value="more"></left></td>
+		 </tr>
+      </table>
+      
+	<input type="submit" style="height: 25px; width: 100px" value="Get Info"></center>
+
+</div>

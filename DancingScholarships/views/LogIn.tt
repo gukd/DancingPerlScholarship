@@ -1,0 +1,23 @@
+<div id="login">
+<form name="input" action="<% request.uri_base %>" method="post"
+<hr color=#000000 size=1 width=100%>
+
+<center>
+        <table border="0">
+         <tr> 
+            <td ><right>Account:&emsp;&emsp;</right></td><td><left><input type="text" name="acc"></left></td>
+         </tr> 
+         <tr> 
+            <td ><right>Password:&emsp;&emsp;</right></td><td><left><input type="password" name="pass"></left></td>
+      	 </tr>
+	</table>
+</center>
+
+<input type="checkbox" name="admin" value="1">Admin<br>
+
+<center>
+	<input type="submit" style="height: 25px; width: 100px" value="Log in">
+</center>
+
+</form> 
+</div>

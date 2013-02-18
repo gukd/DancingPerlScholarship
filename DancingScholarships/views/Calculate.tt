@@ -1,0 +1,51 @@
+﻿<div id="login">  
+<center>
+<form name="autoCalculate" action="<% request.uri_for("/Calculate")%>" method="post">
+	<table border="1">
+		<tr>
+			<th> Долна граница: </th> 
+			<th> Сума: </th>
+			</tr>
+		<tr>
+			<td> <center>6.00</center> </td> 
+			<td> <input type="text" name="grade600"> </td>
+			</tr>
+		<tr>
+			<td> <center>5.90</center> </td> 
+			<td> <input type="text" name="grade590"> </td>
+			</tr>
+		<tr>
+			<td> <center>5.80</center> </td> 
+			<td> <input type="text" name="grade580"> </td>
+			</tr>
+		<tr>.
+			<td> <center>5.70</center> </td> 
+			<td> <input type="text" name="grade570"> </td>
+			</tr>
+		<tr>
+			<td> <center>5.60</center> </td> 
+			<td> <input type="text" name="grade560"> </td>
+			</tr>
+		<tr>
+			<td> <center>5.50</center> </td> 
+			<td> <input type="text" name="grade550"> </td>
+			</tr>
+		<tr>
+			<td> <center>5.00</center> </td> 
+			<td> <input type="text" name="grade500"> </td>
+			</tr>
+		<tr>
+			<td> <center>4.00</center> </td> 
+			<td> <input type="text" name="grade400"> </td>
+			</tr>
+		<tr> 
+			<td colspan="2"> <center>Бюджет: <input type="text" name="totalAmmount"> </center> </td>
+			</tr>
+		<tr> 
+			<td colspan="2"> <center>Месеци: <input type="text" name="months"> </center> </td>
+			</tr>
+	</table>
+<input type="submit" style="height: 25px; width: 100px" value="Get Info">
+</form>
+</center>
+</div>

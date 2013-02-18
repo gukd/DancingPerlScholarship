@@ -1,0 +1,19 @@
+﻿<div id="login">
+   <form name="input" action="<% request.uri_base %>" method="post"
+      <hr color=#000000 size=1 width=100%>
+      <center>
+         <table border="0">
+            <tr> 
+               <b> <h1> ГРЕШКА!!! </h1> </b>
+            </tr>
+            <tr>
+               <h2> Въвели сте <% field %> </h2>
+            </tr>
+            <tr>
+               <h3>Натиснете натиснете BACK бутона, за да се върнете обратно към формата</h3>
+               <FORM><INPUT Type="button" VALUE="Back" onClick="history.go(-1);return true;"></FORM>
+            </tr>
+         </table>
+      </center>
+   </form>
+</div>

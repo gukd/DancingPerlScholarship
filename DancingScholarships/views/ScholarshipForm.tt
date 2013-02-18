@@ -1,0 +1,165 @@
+﻿<div id="page">
+
+      <div id="FormContent">
+	  
+        <div id="header">
+          <h1><center> МОЛБА-ДЕКЛАРАЦИЯ </center></h1>
+          <h2><center> за кандидатстване за стипендия </center></h2>
+        </div>
+
+        <div id="Form">                 
+          <form name="input" action="<% request.uri_for("/ScholarshipForm") %>" method="post">
+          
+<table border="0" width="100%">
+	<tr> 
+	<center> <b> <th colspan="2"> 
+		<hr color=#000000 size=1 width=100%> 
+		Лични данни: 
+		<hr color=#000000 size=1 width=100%>
+	</th> </b> </center> 
+	</tr>
+
+	<tr> 
+		<td >Име &emsp;&emsp;   </td>  
+		<td > <input type="text" name="name">   </td>
+	</tr>
+	<tr> 
+		<td >Телефон &emsp;&emsp;  </td>  
+		<td> <input type="text" name="phoneNumber"> 	</td>
+	</tr>	
+	<tr> 
+		<td >ЕГН &emsp;&emsp;  </td>  
+		<td> <input type="text" name="egn"> 	</td>
+	</tr>	
+	<tr> 
+		<td >Адрес &emsp;&emsp;  </td>  
+		<td> <input type="text" name="address">	</td>
+	</tr>
+
+	<tr > 
+	<center> <b> <th colspan="2"> 
+		<hr color=#000000 size=1 width=100%>
+		Данни за студента: 
+		<hr color=#000000 size=1 width=100%>
+	</th> </b> </center> </tr>
+
+	<tr> 
+		<td >Факултет &emsp;&emsp;  </td>  
+		<td> <input type="text" name="faculty">   </td>
+	</tr>
+	<tr> 
+		<td >Специалност &emsp;&emsp;</td>  
+		<td> <input type="text" name="specialty">   </td>
+	</tr>
+	<tr> 
+		<td >Факултетен номер &emsp;&emsp;</td>  
+		<td> <input type="text" name="fn">   </td>
+	</tr>
+	<tr> 
+		<td >Курс &emsp;&emsp;</td>  
+		<td> <input type="text" name="courseNumber">   </td>
+	</tr>
+	<tr> 
+		<td >Учебна година &emsp;&emsp;</td>  
+		<td> <input type="text" name="acadYear">   </td>
+	</tr>
+	<tr> 
+		<td >Семестър &emsp;&emsp;</td>  
+		<td> <input type="text" name="semester">   </td>
+	</tr>
+	<tr> 
+		<td >Среден успех &emsp;&emsp;</td>  
+		<td> <input type="text" name="avgGrade">   </td>
+	</tr>
+
+	<tr > 
+	<center> <b> <th colspan="2">
+		<hr color=#000000 size=1 width=100%>
+		Семейно положение:
+		<hr color=#000000 size=1 width=100%>
+	</th> </b> </center> 
+	</tr>
+
+	<tr> 
+		<td >Баща &emsp;&emsp;</td>  
+		<td> <input type="text" name="father">   </td>
+	</tr>
+	<tr> 
+		<td >Майка &emsp;&emsp;</td>  
+		<td> <input type="text" name="mother">   </td>
+	</tr>
+	<tr> 
+		<td >Брат/Сестра &emsp;&emsp;</td>  
+		<td> <input type="text" name="sibling">   </td>
+	</tr>
+
+	<tr > 
+	<center> <b> <th colspan="2"> 
+		<hr color=#000000 size=1 width=100%>
+		Лични и семейни приходи: <br> 
+		<font size= 1><b> *Приходи и доходи на членовете на семейството ми включително компенсациите, получени през последните шест месеца </b></font>
+		<hr color=#000000 size=1 width=100%> 
+	</th> </b> </center> 
+	</tr>
+
+	<tr> 
+		<td >Заплати и хонорари &emsp;&emsp;</td>  
+		<td> <input type="text" name="wage">   </td>
+	</tr> 
+	<tr> 
+		<td >Пенсии(без добавки за чужда помощ) &emsp;&emsp;</td> 
+ 		<td> <input type="text" name="pension">   </td>
+	</tr>
+	<tr> 
+		<td >Месечни добавки за деца &emsp;&emsp;</td>  
+		<td> <input type="text" name="kidAid">   </td>
+	</tr>
+	<tr> 
+		<td >Стипендии от външни организации &emsp;&emsp;</td>  
+		<td> <input type="text" name="scholarships">   </td>
+	</tr>
+	<tr> 
+		<td >Други &emsp;&emsp;</td> 
+		<td> <input type="text" name="other">   </td>
+	</tr>
+	<tr> 
+		<td >Всичко &emsp;&emsp;</td>  
+		<td> <input type="text" name="total">   </td>
+	</tr>
+	<tr> 
+		<td >Месечен доход на член на семейството &emsp;&emsp;</td> 
+		<td> <input type="text" name="incomePerPerson">   </td>
+	</tr>
+
+
+
+	<tr > 
+	<center> <b> <th colspan="2">
+	<hr color=#000000 size=1 width=100%>
+	Банкови данни: 
+	<hr color=#000000 size=1 width=100%>
+	</th> </b> </center> 
+	</tr>
+
+	<tr> 
+		<td >Банка &emsp;&emsp;</td>  <td> <input type="text" name="bankName">   </td>
+	</tr>
+	<tr> 
+		<td >IBAN &emsp;&emsp;</td>  <td> <input type="text" name="iban">   </td>
+	</tr>
+
+</table>
+<hr color=#000000 size=1 width=100%>
+
+<font size= 1><b>
+*Известно ми е, че за вписването на неверни данни в тази декларация нося отговорност по чл.313 от Наказателния кодекс и получената неправомерно стипендия подлежи на връщане. Информиран съм, че в качеството си на студент/магистър или бакалавър/, докторант или специализант имам право на стипендия само за една образователно-квалификационна степен "бакалавър" по чл.42,ал.1,т.1.,буква "а" и "б" и за една образователно-квалификационна степен "магистър" по чл.42,ал.1,т.2,буква "б" и за една образователно-квалификационна степен "магистър" по чл.42,ал.1,т.2,буква "б" или "в" от Закона за висше образование или за една образователна-квалификационна степен "магистър" по чл.42,ал.1,т.2,буква "а' от същия закон, както и за една образователна научна степен "доктор".
+Запознат съм с разпоредбите на действащите вътрешни нормативни актове относно получаването на стипендии от студенти в СУ "Св. Кл. Охридски". 
+</b></font>
+
+<hr color=#000000 size=1 width=100%>
+
+<center><input type="submit" style="height: 50px; width: 200px" value="Submit"></center>
+
+        </div>
+      </div>
+    </div>

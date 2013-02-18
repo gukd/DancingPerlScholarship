@@ -1,0 +1,13 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=<% settings.charset %>" />
+<title>Scholarship Form</title>
+<link rel="stylesheet" href="<% request.uri_base %>/css/style.css" />
+</head>
+<body>
+<% content %>
+<div id="footer">
+<center>Powered by <a href="http://perldancer.org/">Dancer</a>, Gurumov and Kdimitrov</center>
+</div>
+</body>
+</html>
